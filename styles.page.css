@@ -1,0 +1,54 @@
+div.content{
+    width: 90%;
+    margin: 0 auto;
+    border-left: 1px solid grey;
+    border-right: 1px solid grey;
+    display: flex;
+    flex-direction: column;
+    justify-content:baseline;
+    align-items: center;
+}
+ div.introduction{
+    max-width: 550px;
+ }
+ p.introductiontext{
+    color:white;
+    font-family: sans-serif;
+    font-size: 14px;
+    text-align: center;
+ }
+
+ h3{
+    color: rgb(198, 198, 198);
+    text-decoration: underline;
+    margin:2rem 0 1rem 0;
+ }
+div.paragraphs1{
+    max-width:650px;
+    margin: 0 25px;
+    color: aliceblue;
+}
+
+.nucleons{
+    width:180px;
+    height: 180px;
+    border-radius: 50%;
+    border:1px dotted white;
+    position: absolute;
+    font-size: 23px;
+    text-shadow: 2px 2px 8px rgb(251, 251, 249);
+}
+
+.nucleons:nth-child(1){
+    top:20%;
+    left:20%;
+    background-color: aqua;
+}
+.nucleons:nth-child(2){
+    background-color: chartreuse;
+}
+.nucleons:nth-child(3){
+    top:20%;
+    right:20%;
+    background-color: red;
+}

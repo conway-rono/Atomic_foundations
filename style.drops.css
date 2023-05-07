@@ -1,0 +1,20 @@
+div.tabs{
+    position: absolute;
+    top:0;
+    width: 100%;
+    height: 7%;
+    display: flex;
+    flex-direction: row;
+}
+div.options{
+    flex:1;
+    color:rgb(18, 220, 139);
+    font-size: 1.3rem;
+    text-align: center;
+    z-index: 5;
+}
+div.options:hover{
+    height: 80vh;
+    background-image: linear-gradient(to right, rgba(255, 255, 255, 0.325),rgba(255, 255, 255, 0.0));
+    backdrop-filter: blur(5px);
+}
